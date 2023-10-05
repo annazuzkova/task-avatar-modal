@@ -64,9 +64,11 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #acacac;
+  background-image: linear-gradient(rgb(28, 113, 143), rgb(44, 184, 200));
   padding: 20px;
   display: flex;
+  border: 2px solid seashell;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
   gap: 20px;
@@ -75,9 +77,13 @@
 }
 .button-close {
   align-self: flex-end;
-  background-color: #0a3853;
-  color: #fff;
+  background-color: #83bbe6;
+  color: #0a3853;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.iframe{
+  border: 10px dotted seashell;
+  border-radius: 10px;
 }
